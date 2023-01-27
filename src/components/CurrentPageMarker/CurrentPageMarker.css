@@ -5,7 +5,8 @@
   left: -14rem;
   top: 10rem;
   width: 38rem;
-  border: 3px dotted purple;
+  height: 5rem;
+  /* border: 3px dotted purple; */
   z-index: 50;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .text-wrapper {
-  border: 3px dotted blue;
+  /* border: 3px dotted blue; */
   height: 4rem;
 }
 
