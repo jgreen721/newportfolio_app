@@ -1,0 +1,159 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: black;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+.app {
+  max-width: 144rem;
+  border: 2px dotted red;
+  /* min-height: 100vh; */
+  margin: 0 auto;
+  position: relative;
+  /* padding: 0 6rem; */
+  padding-left: 6rem;
+}
+
+/* .current-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform-origin: top;
+  transform: rotate(90deg);
+  left: -9rem;
+  top: 10rem;
+}
+
+.line {
+  width: 10rem;
+  height: 3px;
+  background: black;
+  margin-right: 1rem;
+} */
+
+.app-content-container {
+  /* height: 100%; */
+  width: 100%;
+  /* border: 3px dotted green; */
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  min-width: 850px;
+}
+/* 
+.navbar-wrapper {
+  height: 100vh;
+  width: 15rem;
+  border: 4px dotted gold;
+  position: relative;
+}
+
+.navbar {
+  width: 15rem;
+  height: 100%;
+  border: 5px dotted darkcyan;
+  position: fixed;
+  display: flex;
+  align-items: Center;
+  justify-content: center;
+  background: red;
+  z-index: 5;
+  top: 0;
+} */
+
+.app-views-container {
+  /* height: 100vh; */
+  /* flex: 1; */
+  width: 80vw;
+  border: 5px dotted blue;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7rem;
+}
+
+.view-container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem; */
+  border: 3px dotted darkorange;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    padding: 0;
+  }
+  .app-content-container {
+    flex-direction: column;
+    padding-left: 5rem;
+    min-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .app-views-container {
+    width: 95vw;
+  }
+
+  /* .navbar-wrapper,
+  .navbar {
+    width: 100%;
+    height: 10rem;
+    top: 0;
+    left: 0;
+  } */
+}
+
+@media screen and (max-width: 425px) {
+  .app-content-container {
+    /* min-width: 400px; */
+  }
+}

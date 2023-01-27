@@ -1,0 +1,41 @@
+.current-page-parent {
+  position: fixed;
+  transform-origin: top;
+  transform: rotate(90deg);
+  left: -14rem;
+  top: 10rem;
+  width: 38rem;
+  border: 3px dotted purple;
+  z-index: 50;
+}
+
+.current-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* position: fixed;
+  transform-origin: top;
+  transform: rotate(90deg);
+  left: -7rem;
+  top: 10rem; */
+}
+
+.text-wrapper {
+  border: 3px dotted blue;
+  height: 4rem;
+}
+
+.line {
+  width: 10rem;
+  height: 3px;
+  background: black;
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 1600px) {
+  .current-page-parent {
+    left: -4rem;
+    /* border: 5px solid orange; */
+  }
+}
